@@ -1,0 +1,7 @@
+Compile:
+
+mpicc -o run_mpi run_mpi.c
+
+Example:
+
+mpirun -n 1 run_mpi "python test.py"
